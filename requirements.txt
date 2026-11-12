@@ -1,0 +1,9 @@
+streamlit
+pdfplumber
+nltk
+spacy
+ollama
+matplotlib
+google-search-results
+scikit-learn
+requests
