@@ -205,7 +205,7 @@ def generate_query_spacy(resume_data):
 def search_database(query):
     """Fetch internships from SerpAPI engines."""
     try:
-        api_key = "6817e94b9eed55dea56565370a36742923b1d3dbffa1af7a2293eed639a7b390"
+        api_key = st.secrets["SERPAPI_API_KEY"]
         engines = ["google_jobs", "bing", "yahoo"]
         jobs = []
         for engine in engines:
