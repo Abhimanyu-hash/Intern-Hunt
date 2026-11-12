@@ -503,5 +503,5 @@ def main():
     else:
         my_bar.progress(0, text="Awaiting resume upload...")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
